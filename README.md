@@ -14,7 +14,7 @@ programs.hyprland.enable = true;
 
 # Required services
 services.geoclue2.enable = true;  # For QtPositioning
-services.networkmanager.enable = true;  # For network management
+networking.networkmanager.enable = true;  # For network management - you probably already have this
 
 # System fonts (optional but recommended)
 fonts.packages = with pkgs; [
